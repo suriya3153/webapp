@@ -4,6 +4,7 @@ a=st.text_input("yes or no")
 if len(a)!=0:
     if a=="yes":
         st.write("suriya "*100)
+        st.write("baby "*100)
     elif a=="no":
         st.write("out")
     else:
