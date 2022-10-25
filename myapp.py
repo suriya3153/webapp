@@ -1,11 +1,9 @@
 import streamlit as st
-st.header("type yes or no")
-a=st.text_input("yes or no")
+st.header("baby")
+a=st.text_input("type yes")
 if len(a)!=0:
     if a=="yes":
-        st.write("suriya "*100)
-        st.write("baby "*100)
-    elif a=="no":
-        st.write("out")
+        st.write("love you abi"*1000)
     else:
         st.write("enter right input yes or no")
+        
